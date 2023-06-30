@@ -1,0 +1,145 @@
+html, body {
+    background-color: rgb(248, 245, 181);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bottom {
+    background-color: rgb(241, 84, 110);
+    max-width: 100%;
+    width: 783px;
+    height: 80px;
+    margin: auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+    text-align: center;
+    line-height: 9px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    color: rgb(252, 252, 252);
+    font-size: 50px;
+}
+
+.bottom {
+    color: rgb(252, 252, 252);
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-flow: wrap;
+    row-gap: 2rem;
+    column-gap: 3rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgb(248, 245, 252);
+    max-width: 100%;
+    width: 360px;
+    height: 500px;
+    margin: center;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    overflow: hidden;
+}
+
+.content1 {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+    line-height: 1rem;
+}
+
+.content2 {
+    bottom: 0;
+    padding: 10%;
+    justify-content: center;
+    text-align: justify;
+    width: 80%;
+    height: auto;
+    line-height: 22px;
+    color: rgb(241, 84, 110);
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: translateY(-10%);
+}
+
+.content1 p {
+    color: rgb(117, 112, 112);
+}
+
+.content1 h1 {
+    color: rgb(241, 84, 110);
+}
+
+.social i {
+    color: rgb(249, 234, 234);
+    font-size: 25px;
+}
+
+.social button {
+    background-color: rgb(241, 84, 110);
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social button:hover{
+    background-color: rgb(160, 160, 215);
+}
+
+.content2 p {
+    font-size: 14px;
+    color: rgb(50, 50, 50);
+}
+
+.skill i {
+    color: rgb(50, 50, 50);
+    font-size: 5px;
+}
+
+.skill p1 {
+    color: rgb(50, 50, 50);
+    font-size: 14px;
+}
+
+.contact {
+    color: rgb(86, 84, 84);
+    font-size: 14px;
+    display: flex;
+    column-gap: 1rem;
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgb(86, 84, 84);
+}
+
+.contact a:hover {
+    color: rgb(253, 252, 252);
+}
